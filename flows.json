@@ -1,15 +1,15 @@
 [
     {
-        "id": "aa6c1e68.a8df5",
+        "id": "cad60d0e.40d8a",
         "type": "tab",
         "label": "Emob",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "46d398ec.585208",
+        "id": "2f3f69e1.11f5d6",
         "type": "http in",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "url": "/camera",
         "method": "get",
@@ -19,14 +19,14 @@
         "y": 60,
         "wires": [
             [
-                "2adc7dd.21c0582"
+                "2af5d6b8.ed9a6a"
             ]
         ]
     },
     {
-        "id": "2adc7dd.21c0582",
+        "id": "2af5d6b8.ed9a6a",
         "type": "template",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -38,14 +38,14 @@
         "y": 60,
         "wires": [
             [
-                "5b76623e.b4c7fc"
+                "b868b6c.b05d748"
             ]
         ]
     },
     {
-        "id": "5b76623e.b4c7fc",
+        "id": "b868b6c.b05d748",
         "type": "http response",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -54,9 +54,9 @@
         "wires": []
     },
     {
-        "id": "c0c9ab32.637aa8",
+        "id": "d28c1922.309418",
         "type": "http in",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "url": "/emob",
         "method": "get",
@@ -66,14 +66,14 @@
         "y": 140,
         "wires": [
             [
-                "af683469.fff8d8"
+                "37f2e1de.b84b5e"
             ]
         ]
     },
     {
-        "id": "af683469.fff8d8",
+        "id": "37f2e1de.b84b5e",
         "type": "template",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -85,14 +85,14 @@
         "y": 140,
         "wires": [
             [
-                "ed032b8e.01d0b8"
+                "e9b1ca19.b4ced8"
             ]
         ]
     },
     {
-        "id": "ed032b8e.01d0b8",
+        "id": "e9b1ca19.b4ced8",
         "type": "http response",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -101,9 +101,9 @@
         "wires": []
     },
     {
-        "id": "50780499.8cdfac",
+        "id": "5cbed506.9e64dc",
         "type": "http in",
-        "z": "aa6c1e68.a8df5",
+        "z": "cad60d0e.40d8a",
         "name": "",
         "url": "/emob",
         "method": "post",
@@ -113,7 +113,7 @@
         "y": 200,
         "wires": [
             [
-                "ed032b8e.01d0b8"
+                "e9b1ca19.b4ced8"
             ]
         ]
     }
